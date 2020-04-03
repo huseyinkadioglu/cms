@@ -1,1 +1,1 @@
-<?php
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet autem distinctio eligendi enim eveniet facere fugiat ipsam minus molestiae nesciunt officiis quisquam ratione reiciendis, sapiente similique velit! Saepe, voluptatum?
