@@ -10,12 +10,12 @@
             </div>
             <div class="media-body">
                 <div class="foldable">
-                    <h5><a href="javascript:void(0)" class="username">John Doe</a></h5>
+                    <h5><a href="javascript:void(0)" class="username">Hüseyin Kadıoğlu</a></h5>
                     <ul>
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle usertitle" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false">
-                                <small>Web Developer</small>
+                                <small>Developer</small>
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu animated flipInY">
@@ -55,11 +55,12 @@
     <div class="menubar-scroll">
         <div class="menubar-scroll-inner">
             <ul class="app-menu">
-                <a href="javascript:void(0)" class="submenu-toggle">
-                    <i class="menu-icon zmdi zmdi-view-dashboard zmdi-hc-lg"></i>
-                    <span class="menu-text">Dashboards</span>
-                </a>
-
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon zmdi zmdi-view-dashboard zmdi-hc-lg"></i>
+                        <span class="menu-text">Dashboard</span>
+                    </a>
+                </li>
                 <li>
                     <a href="javascript:void(0)">
                         <i class="menu-icon zmdi zmdi-settings zmdi-hc-lg"></i>
