@@ -1,1 +1,1 @@
-Lorem ipsum dolor
+Dashboard content

@@ -64,7 +64,7 @@
                 <li>
                     <a href="javascript:void(0)">
                         <i class="menu-icon zmdi zmdi-settings zmdi-hc-lg"></i>
-                        <span class="menu-text">Settings</span>
+                        <span class="menu-text">Ayarlar</span>
                     </a>
                 </li>
 
@@ -90,7 +90,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="<?php echo base_url('product'); ?>" >
                         <i class="menu-icon fa fa-cubes"></i>
                         <span class="menu-text">Ürünler</span>
                     </a>
