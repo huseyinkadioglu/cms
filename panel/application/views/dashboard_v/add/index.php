@@ -24,7 +24,8 @@
         <div class="wrap">
             <section class="app-content">
                <?php
-               $this->load->view("{$this->viewFolder}/add/content")  ?>
+               $subViewFolder ="add";
+               $this->load->view("{$this->viewFolder}/{$subViewFolder}/content") ?>
             </section><!-- #dash-content -->
         </div><!-- .wrap -->
         <!-- APP FOOTER -->
