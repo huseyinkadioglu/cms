@@ -12,16 +12,24 @@ class Product_model extends CI_Model
 
 
     // veritabanından bütün kayıtları getirecek olan fonksiyon.
-    public function  get_all(){
+    public function get_all($where = array())
+    {
 
-        return $this-> db -> get($this->tableName)->result();
-
+        return $this->db->where($where)->get($this->tableName)->result();
     }
 
-    public function add($data = array()){
+    // Veritabanından sadece bir kayıt almalıyız update metodu için;
+    public function get($where = array())
+    {
+        return $this->db->where($where)->get($this->tableName)->row();
+    }
+
+
+    public function add($data = array())
+    {
 
         // insert nereye , neyi kaydedeceğini söylüyor
-        return $this->db->insert($this->tableName, $data );
+        return $this->db->insert($this->tableName, $data);
     }
 
 }

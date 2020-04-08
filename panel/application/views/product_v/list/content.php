@@ -41,12 +41,11 @@
                             <td><?php echo $item->description; ?></td>
                             <td>
 
-                                    <input
+                                <input
                                         type="checkbox"
                                         data-switchery
                                         data-color="#10c469"
-                                        checked
-                                        />
+                                        checked  />
 
 
                             </td>
@@ -56,7 +55,7 @@
                                                 class="fa fa-trash"></i> Sil
                                     </button>
                                 </a>
-                                <a href="#">
+                                <a href="<?php echo base_url("product/update_form/$item->id"); ?>">
                                     <button type="button" class="btn btn-xs btn-info btn-outline"><i
                                                 class="fa fa-pencil"></i> Düzenle
                                     </button>
