@@ -58,12 +58,12 @@ var LIBS = {
 		"../libs/misc/jvectormap/maps/jquery-jvectormap-africa-mill.js"
 	],
 	summernote: [
-		"../libs/bower/summernote/dist/summernote.css",
-		"../libs/bower/summernote/dist/summernote.min.js"
+		"..panel/assets/libs/bower/summernote/dist/summernote.css",
+		"..panel/assets/bower/summernote/dist/summernote.min.js"
 	],
 	DataTable: [
-		"../libs/misc/datatables/datatables.min.css",
-		"../libs/misc/datatables/datatables.min.js"
+		"..panel/assets/libs/misc/datatables/datatables.min.css",
+		"..panel/assets/libs/misc/datatables/datatables.min.js"
 	],
 	fullCalendar: [
 		"../libs/bower/moment/moment.js",
