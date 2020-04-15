@@ -53,11 +53,9 @@
 
                             </td>
                             <td>
-                                <a href="<?php echo base_url("product/delete/$item->id"); ?>">
-                                    <button type="button" class="btn btn-xs btn-primary btn-outline"><i
-                                                class="fa fa-trash"></i> Sil
-                                    </button>
-                                </a>
+                                <button data-url="<?php echo base_url("product/delete/$item->id"); ?>"
+                                 class="btn btn-xs btn-danger btn-outline remove-btn"><i class="fa fa-trash"></i> Sil
+                                </button>
                                 <a href="<?php echo base_url("product/update_form/$item->id"); ?>">
                                     <button type="button" class="btn btn-xs btn-info btn-outline"><i
                                                 class="fa fa-pencil"></i> Düzenle
