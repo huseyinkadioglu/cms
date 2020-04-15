@@ -42,15 +42,18 @@
                             <td>
 
                                 <input
+                                        data-url="<?php echo base_url("product/isActiveSetter/$item->id"); ?>"
+                                        data
+                                        class="isActive"
                                         type="checkbox"
                                         data-switchery
                                         data-color="#10c469"
-                                        checked  />
+                                    <?php echo ($item->isActive) ? "checked" : ""; ?> />
 
 
                             </td>
                             <td>
-                                <a href="#">
+                                <a href="<?php echo base_url("product/delete/$item->id"); ?>">
                                     <button type="button" class="btn btn-xs btn-primary btn-outline"><i
                                                 class="fa fa-trash"></i> Sil
                                     </button>

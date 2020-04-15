@@ -32,4 +32,15 @@ class Product_model extends CI_Model
         return $this->db->insert($this->tableName, $data);
     }
 
+    public function update($where = array(), $data = array())
+    {
+        // spesifik komutları belirlemek gerekir  neyi değiştiricem
+
+        return $this->db->where($where)->update($this->tableName, $data);
+    }
+
+    public function delete($where = array()){
+        return $this->db->where($where)->delete($this->tableName);
+    }
+
 }

@@ -12,12 +12,12 @@
             </header><!-- .widget-header -->
             <hr class="widget-separator">
             <div class="widget-body">
-                <form action="<?php echo base_url("product/save"); ?>" method="post">
+                <form action="<?php echo base_url("product/update/$item->id"); ?>" method="post">
                     <div class="form-group">
                         <label> Product Title </label>
                         <input name="title" class="form-control" placeholder="url" value="<?php echo $item->title; ?>">
 
-                        <?php if(isset($form_error)) { ?>
+                        <?php if (isset($form_error)) { ?>
                             <small class="input-form-error"> <?php echo form_error("title"); ?></small>
                         <?php } ?>
 
@@ -31,7 +31,7 @@
                             <?php echo $item->description; ?>
                         </textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-md btn-outline">Save</button>
+                    <button type="submit" class="btn btn-primary btn-md btn-outline">Edit</button>
                     <a href="<?php echo base_url("product"); ?>" class="btn btn-md btn-danger btn-outline"> Cancel </a>
                 </form>
             </div><!-- .widget-body -->
