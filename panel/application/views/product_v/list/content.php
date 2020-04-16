@@ -4,7 +4,7 @@
             Product List
             <a href=" <?php echo base_url("product/new_form"); ?>"
                class="btn btn-outline btn-primary btn-sm pull-right">
-                <i class="fa fa-plus"></i> Add </a>
+                <i class="fa fa-plus"></i> Yeni Ekle </a>
 
         </h4>
     </div>
@@ -15,8 +15,8 @@
                 <div class="alert alert-info text-center alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
-                    <p>Burada herhangi bir veri bulunmamaktadır.Eklemek için Add butonuna <a
-                                href=" <?php echo base_url("product/new_form"); ?>" tıklayınız</a>
+                    <p>Burada herhangi bir veri bulunmamaktadır.Eklemek için Add butonuna
+                        <a href=" <?php echo base_url("product/new_form"); ?>" tıklayınız </a>
 
                     </p>
                 </div>
@@ -56,11 +56,11 @@
                                 <button data-url="<?php echo base_url("product/delete/$item->id"); ?>"
                                  class="btn btn-xs btn-danger btn-outline remove-btn"><i class="fa fa-trash"></i> Sil
                                 </button>
-                                <a href="<?php echo base_url("product/update_form/$item->id"); ?>">
-                                    <button type="button" class="btn btn-xs btn-info btn-outline"><i
-                                                class="fa fa-pencil"></i> Düzenle
-                                    </button>
-                                </a>
+                                <button data-url="<?php echo base_url("product/update_form/$item->id"); ?>"
+                                     class="btn btn-xs btn-info btn-outline update-btn">
+                                    <i class="fa fa-pencil"></i> Düzenle
+
+                                </button>
                             </td>
                         </tr>
 
