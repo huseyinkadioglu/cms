@@ -59,8 +59,10 @@
                                 <button data-url="<?php echo base_url("product/update_form/$item->id"); ?>"
                                      class="btn btn-xs btn-info btn-outline update-btn">
                                     <i class="fa fa-pencil"></i> Düzenle
-
                                 </button>
+                                <a href="<?php echo base_url("product/image_form/$item->id"); ?>"
+                                   class="btn btn-xs btn-dark btn-outline"><i class="fa fa-image"></i> Resimler
+                                </a>
                             </td>
                         </tr>
 
